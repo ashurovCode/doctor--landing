@@ -159,7 +159,6 @@ const Hero = () => {
               </div>
             </motion.div>
 
-            {/* Floating Elements */}
             <motion.div
               animate={{
                 y: [0, -15, 0],
@@ -170,7 +169,8 @@ const Hero = () => {
                 repeat: Infinity,
                 ease: 'easeInOut',
               }}
-              className="absolute top-10 -left-6 bg-white p-4 rounded-2xl shadow-xl z-[60]"
+              className="absolute top-[3px] -left-6 bg-white p-4 rounded-2xl shadow-xl z-[60] 
+             sm:top-[3px] sm:-left-6 top-[5px] bottom-auto"
             >
               <div className="flex items-center gap-3">
                 <div className="bg-green-500 p-2 rounded-full">
